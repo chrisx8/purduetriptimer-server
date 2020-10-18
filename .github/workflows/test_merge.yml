@@ -1,7 +1,7 @@
 name: test
 on:
   push:
-    branches-ignore: master
+    branches-ignore: main
   pull_request:
 jobs:
   test:
@@ -22,6 +22,8 @@ jobs:
         pip install wheel
         pip install -r requirements.txt
     - name: Test
+      env:
+        DATABASE_URL: sqlite:///ci.db
       run: |
         gunicorn app:app -b 127.0.0.1:8000 &
         sleep 3

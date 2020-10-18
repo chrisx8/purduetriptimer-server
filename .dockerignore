@@ -130,5 +130,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# Docker Build
-requirements.txt
+# Dev
+.vscode/
