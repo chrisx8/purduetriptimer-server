@@ -103,6 +103,7 @@ celerybeat.pid
 
 # Environments
 config.py
+*.db
 .env
 .venv
 env/
