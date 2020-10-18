@@ -67,7 +67,7 @@ def validate_method(method):
 
 @app.route('/')
 def homepage():
-    return ''
+    return '<h1>Welcome to Purdue TripTimer API!</h1>'
 
 
 @app.route('/trips/', methods=('GET', 'POST'))
@@ -109,7 +109,7 @@ def serve_trips():
     # POST: add user-reported trip to DB
     if request.method == 'POST':
         # get all fields
-        data = request.data
+        data = request.values
         current_time = datetime.now()
 
         # rate limit: check if there's an exact match within 30sec
@@ -133,5 +133,5 @@ def serve_trips():
 
         # build and send response
         response = make_response(message, code)
-        response.header['Content-Type'] = 'text/plain'
+        response.headers['Content-Type'] = 'text/plain'
         return response
