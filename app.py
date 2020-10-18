@@ -21,7 +21,7 @@ app = Flask(__name__, instance_relative_config=True)
 # create app configurations
 app.config.from_mapping(
     SECRET_KEY=create_session_key(64),        # make a secret key (length 64)
-    DATABASE_URL=environ.get('DATABASE_URL')  # database URL. supports sqlite, mysql, postgresql
+    DATABASE_URL=environ.get('DATABASE_URL')  # supports sqlite, mysql, postgresql (extra dependencies required)
 )
 
 
@@ -135,4 +135,3 @@ def serve_trips():
         response = make_response(message, code)
         response.header['Content-Type'] = 'text/plain'
         return response
-    
