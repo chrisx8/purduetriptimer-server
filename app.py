@@ -88,8 +88,7 @@ def serve_trips():
         # validate all input
         if (not validate_building(from_bldg) or not validate_building(to_bldg) or not validate_method(method)):
             return ("Your input is invalid! Please try again.", 400)
-            code = 400
-        elif (time < 1):
+        if (time < 1):
             return ("Your time seems really short... Have you started the timer?", 400)
 
         trip = Trip(from_building=from_bldg, to_building=to_bldg, method=method, time=time, timestamp=timestamp)
