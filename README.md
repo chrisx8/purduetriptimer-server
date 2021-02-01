@@ -3,9 +3,11 @@
 [![Build Status](https://github.com/chrisx8/purduetriptimer-server/workflows/build/badge.svg)](https://github.com/chrisx8/purduetriptimer-server/actions?query=workflow%3Abuild)
 [![CodeFactor](https://www.codefactor.io/repository/github/chrisx8/purduetriptimer-server/badge)](https://www.codefactor.io/repository/github/chrisx8/purduetriptimer-server)
 
-Purdue TripTimer a Hello World 2020 project by [@aaryan-gautam](https://github.com/aaryan-gautam), [@afshirazi](https://github.com/afshirazi), [@chrisx8](https://github.com/chrisx8), and [@HenryWellman](https://github.com/HenryWellman). See more information on [Devpost](https://devpost.com/software/purdue-triptimer).
+Purdue TripTimer a Hello World 2020 project by [@aaryan-gautam](https://github.com/aaryan-gautam), [@afshirazi](https://github.com/afshirazi), [@chrisx8](https://github.com/chrisx8), and [@HenryWellman](https://github.com/HenryWellman).
 
 This repository contains the server-side implementation. The Android app is at [chrisx8/purduetriptimer](https://github.com/chrisx8/purduetriptimer).
+
+[Hello World 2020 submission](https://devpost.com/software/purdue-triptimer)
 
 ## Install using Docker
 
