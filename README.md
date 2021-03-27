@@ -1,6 +1,6 @@
 # Purdue TripTimer Server
 
-[![Build Status](https://github.com/chrisx8/purduetriptimer-server/workflows/build/badge.svg)](https://github.com/chrisx8/purduetriptimer-server/actions?query=workflow%3Abuild)
+[![build](https://github.com/chrisx8/purduetriptimer-server/actions/workflows/build_main.yml/badge.svg)](https://github.com/chrisx8/purduetriptimer-server/actions/workflows/build_main.yml)
 
 Purdue TripTimer a Hello World 2020 project by [@aaryan-gautam](https://github.com/aaryan-gautam), [@afshirazi](https://github.com/afshirazi), [@chrisx8](https://github.com/chrisx8), and [@HenryWellman](https://github.com/HenryWellman).
 
