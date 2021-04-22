@@ -10,12 +10,12 @@ This repository contains the server-side implementation. The Android app is at [
 
 ## Install using Docker
 
-Replace `[replace_me]` with your actual database URL. 
+Replace `[replace_me]` with your actual database URL.
 
-Supported databases: SQLite, MySQL (requires mysqlclient), PostgreSQL (requires psycopg2). 
+Supported databases: SQLite, MySQL (requires mysqlclient), PostgreSQL (requires psycopg2).
 
 ```bash
-docker run -e DATABASE_URL=[replace_me] -d -p 8000:8000 chrisx8/purduetriptimer-server
+docker run -e DATABASE_URL=[replace_me] -d -p 8000:8000 ghcr.io/chrisx8/purduetriptimer-server
 ```
 
 ## License
